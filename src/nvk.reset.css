@@ -95,3 +95,22 @@ a:hover{
 }
 
 .disabled, .disabled:hover{ cursor: not-allowed; }
+
+button{
+    background-color: #fff;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #f0f0f0;
+    color: #636363;
+    font-weight: lighter;
+    font-size: normal;
+    padding: 8px 16px;
+    vertical-align: middle;
+}
+
+button:hover{
+    border-color: #f0f0f0;
+    background-color: #f0f0f0;
+    color: #424242;
+}
