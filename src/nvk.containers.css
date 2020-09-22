@@ -1,0 +1,25 @@
+.n-container{
+    padding: 8px 5%;
+    width: 100%;
+}
+
+.n-container-wide{
+    width: 100%;
+}
+
+.n-panel{
+    margin: 16px 0;
+    padding: 8px 5%;
+    width: 100%;
+}
+
+.n-panel-wide{
+    margin: 16px 0;
+    width: 100%;
+}
+
+.n-container::after, .n-container-wide::after, .n-panel-wide::after, .n-panel::after{
+    content: "";
+    display: block;
+    clear: both !important;
+}
